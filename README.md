@@ -27,12 +27,12 @@ Tiden er grovt estimert og avhenger av, blant annet, tidligere kjennskap til tem
 ### Oppgave 1: Min Første "Database" \- Data som Tekst (ca. 1.5 timer)
 
 1\. Opprett datafilen **studenter.csv** og skriv inn følgende fire linjer:
-
+```
     101,Mickey,CS  
-  102,Daffy,EE  
-  103,Donald,CS  
-  104,Minnie,PSY
-
+    102,Daffy,EE  
+    103,Donald,CS  
+    104,Minnie,PSY
+```
 2\.  Lag en **Student**\-klasse i Java. Klassen skal være en indre klasse (en. inner class), som defineres på lik nivå med hovedklassen og i samme fil som hovedklassen.
 
 3\.  Skriv resten av et Java-program i filen **LesStudenter.java**, som finner og leser all data fra filen **studenter.csv**, legger inn hver linje i en instanse av klassen **Student** og skriver ut hvert objekti til **stdout**. Filnavn skal leses inn fra kommandolinje (vha. args parameter i metoden main).
